@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    color:black;
+    font-family: "Times New Roman", Times, serif, "Open Sans";
+    background-color: rgb(240, 245, 150);
+}
+
+.navblock{
+    border:2px solid black;
+    box-sizing:border-box;
+    border-radius:10px;
+    background-color: white;
+    padding:0.2em;
+}
+
+a.navlink{
+    text-decoration: none;
+}
+
+.menu{
+    padding-inline-start: 20px;
+}
+
+ul.menu{
+    list-style:none; 
+}
+
+ul.menu li{
+    display:inline;
+}
+
+.navtitle:active{
+    text-decoration: none;
+}
+
+.navtitle:visited{
+    text-decoration:none;
+}
+
+.navtitle:hover{
+    color:red;
+}
+
+.navtitle{
+    font-family: Times;
+    color:rgb(48, 1, 255);
+    font-size:1.5em;
+    font-weight:bolder;  
+    border:2px solid black;
+    box-sizing:border-box;
+    background-color: rgba(59, 59, 59, 0.432);
+    border-radius:5px; 
+    padding:0.2em;
+    margin-right:0.5em;
+}
+
+.flag{
+    padding:0em;
+    margin:0em;
+    padding-top:2em;
+}
+
+.imflag{
+    margin:0 auto;
+    width:150px;
+}
+
+.figtxt{
+    color:rgb(48, 48, 48);
+    font-size:25px;
+    padding: 0em;
+    text-align:center;
+    margin:0
+}
+
+.intro{
+    padding:0.5em;
+    max-width: 500px;
+    border: double;
+}
+
+@media (min-width: 1024px) {
+    body {
+            background-color: rgb(255, 115, 0);
+            color:darkred;
+            font-size: 10px;
+            line-height: 10px;
+    }
+
+}
